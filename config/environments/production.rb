@@ -1,3 +1,5 @@
+RAILS_SKIP_MIGRATIONS=true
+
 Rails.application.configure do
 
   # Setting to ensure it deploys to Elastic Beanstalk correctly
