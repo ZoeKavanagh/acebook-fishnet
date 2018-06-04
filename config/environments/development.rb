@@ -1,4 +1,8 @@
 Rails.application.configure do
+  
+  # Setting to ensure it deploys to Elastic Beanstalk correctly
+  config.rails_skip_migrations = true
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
